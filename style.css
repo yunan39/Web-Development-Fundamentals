@@ -1,0 +1,151 @@
+
+
+#expenses {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+#expenses table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+#expenses th,
+#expenses td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+#expenses thead {
+    background-color: #007bff;
+    color: white;
+}
+
+#expenses tbody tr:nth-child(even) {
+    background-color: #eaf2f8;
+}
+
+#expenses tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+#add-expense {
+    background-color: #f4f7f9;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+#expense-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#expense-form input,
+#expense-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#expense-form label {
+    font-weight: bold;
+}
+
+#add-expense-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#add-expense-button:hover {
+    background-color: #0056b3;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+}
+
+#budget-video {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f4f7f9;
+    border-radius: 8px;
+}
+
+#budget-video iframe {
+    max-width: 100%;
+}
+
+
+#tracker-help {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f4f7f9;
+    border-radius: 8px;
+}
+
+#tracker-help summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+}
+
+#expenses tbody tr:hover {
+    background-color: #d6eaf8;
+    transition: background-color 0.2s ease;
+}
+
+#add-expense-button {
+    cursor: pointer;
+}
+
+
+#expenses td {
+    padding: 12px;
+    color: #333333;
+}
+
+#expense-form > input {
+    border: 1px solid #999999;
+    padding: 10px;
+}
+
+#expenses tbody tr:nth-child(even) {
+    background-color: #eaf2f8;
+}
+
+#expense-form input:not([type="date"]) {
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#expense-form input:focus {
+    outline: 2px solid #007bff;
+    border-color: #007bff;
+    background-color: #f0f8ff;
+}
+
+#expenses tbody tr:hover {
+    background-color: #d6eaf8;
+    transition: background-color 0.2s ease;
+}
